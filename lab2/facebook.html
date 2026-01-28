@@ -1,0 +1,250 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="icon" type="image/x-icon" href="FBicon.png">
+    <title>Facebook – Log in or Sign up</title>
+
+    <style>
+        * {
+            margin: 0;
+            padding: 0;
+            box-sizing: border-box;
+            font-family: Arial, Helvetica, sans-serif;
+        }
+
+        body {
+            background-color: #f0f2f5;
+        }
+
+        /* ===== MAIN SECTION ===== */
+        .main {
+            height: 100vh;
+            display: flex;
+            justify-content: center;
+            align-items: center;
+            padding: 40px 20px;
+        }
+
+        .container {
+            display: flex;
+            gap: 80px;
+            align-items: center;
+        }
+
+        .info {
+            max-width: 500px;
+        }
+
+        .logo {
+            color: #1877f2;
+            font-size: 56px;
+            font-weight: bold;
+            margin-bottom: 10px;
+        }
+
+        .info p {
+            font-size: 24px;
+            color: #1c1e21;
+            line-height: 28px;
+        }
+
+        /* ===== LOGIN ===== */
+        .login-wrapper {
+            text-align: center;
+        }
+
+        .login-box {
+            width: 396px;
+            background: #fff;
+            padding: 16px;
+            border-radius: 8px;
+            box-shadow: 0 2px 4px rgba(0,0,0,0.1),
+                        0 8px 16px rgba(0,0,0,0.1);
+        }
+
+        .login-box input {
+            width: 100%;
+            padding: 14px;
+            margin-bottom: 12px;
+            border-radius: 6px;
+            border: 1px solid #dddfe2;
+            font-size: 17px;
+        }
+
+        .login-btn {
+            width: 100%;
+            background-color: #1877f2;
+            color: #fff;
+            font-size: 20px;
+            font-weight: bold;
+            padding: 12px;
+            border: none;
+            border-radius: 6px;
+        }
+
+        .forgot {
+            display: block;
+            margin: 16px 0;
+            font-size: 14px;
+            color: #1877f2;
+            text-decoration: none;
+        }
+
+        .divider {
+            border-top: 1px solid #dadde1;
+            margin: 20px 0;
+        }
+
+        .create-btn {
+            background-color: #42b72a;
+            color: #fff;
+            font-size: 17px;
+            font-weight: bold;
+            padding: 12px 16px;
+            border: none;
+            border-radius: 6px;
+        }
+
+        .create-page {
+            margin-top: 28px;
+            font-size: 14px;
+            color: #1c1e21;
+        }
+
+        .create-page a {
+            font-weight: bold;
+            color: #1c1e21;
+            text-decoration: none;
+        }
+
+        /* ===== FOOTER ===== */
+        footer {
+            background: #fff;
+            padding: 30px 20px;
+        }
+
+        .footer-container {
+            max-width: 980px;
+            margin: 0 auto;
+            font-size: 12px;
+            color: #737373;
+            text-align: left;
+        }
+
+        .footer-row {
+            display: flex;
+            flex-wrap: wrap;
+            gap: 10px 15px;
+            margin-bottom: 12px;
+        }
+
+        .footer-row a {
+            color: #737373;
+            text-decoration: none;
+            white-space: nowrap;
+        }
+
+        .footer-row a:hover {
+            text-decoration: underline;
+        }
+
+        .copyright {
+            margin-top: 10px;
+        }
+
+        @media (max-width: 900px) {
+            .container {
+                flex-direction: column;
+                text-align: center;
+            }
+        }
+    </style>
+</head>
+<body>
+
+    <div class="main">
+        <div class="container">
+
+            <div class="info">
+                <div class="logo">facebook</div>
+                <p>Facebook helps you connect and share with the people in your life.</p>
+            </div>
+
+            <div class="login-wrapper">
+                <div class="login-box">
+                    <input type="text" placeholder="Email or phone number">
+                    <input type="password" placeholder="Password">
+                    <button class="login-btn">Log In</button>
+                    <a href="#" class="forgot">Forgot password?</a>
+                    <div class="divider"></div>
+                    <button class="create-btn">Create new account</button>
+                </div>
+
+                <div class="create-page">
+                    <a href="#">Create a Page</a> for a celebrity, brand or business.
+                </div>
+            </div>
+
+        </div>
+    </div>
+
+    <!-- FOOTER (scroll required) -->
+    <footer>
+        <div class="footer-container">
+
+            <div class="footer-row">
+                <a href="#">English (UK)</a>
+                <a href="#">Русский</a>
+                <a href="#">Қазақша</a>
+                <a href="#">Türkçe</a>
+                <a href="#">Bahasa Indonesia</a>
+                <a href="#">中文(简体)</a>
+                <a href="#">Deutsch</a>
+                <a href="#">한국어</a>
+                <a href="#">Shqip</a>
+                <a href="#">Español</a>
+                <a href="#">Português (Brasil)</a>
+            </div>
+
+            <div class="footer-row">
+                <a href="#">Sign up</a>
+                <a href="#">Log in</a>
+                <a href="#">Messenger</a>
+                <a href="#">Facebook Lite</a>
+                <a href="#">Video</a>
+                <a href="#">Meta Pay</a>
+                <a href="#">Meta Store</a>
+                <a href="#">Meta Quest</a>
+                <a href="#">Ray-Ban Meta</a>
+                <a href="#">Meta AI</a>
+                <a href="#">Meta AI more content</a>
+                <a href="#">Instagram</a>
+                <a href="#">Threads</a>
+                <a href="#">Voting Information Centre</a>
+                <a href="#">Privacy Policy</a>
+                <a href="#">Privacy Centre</a>
+                <a href="#">About</a>
+                <a href="#">Create ad</a>
+                <a href="#">Create Page</a>
+                <a href="#">Developers</a>
+                <a href="#">Careers</a>
+                <a href="#">Cookies</a>
+                <a href="#">AdChoices</a>
+                <a href="#">Terms</a>
+                <a href="#">Help</a>
+                <a href="#">Contact uploading and non-users</a>
+                <a href="#">Settings</a>
+                <a href="#">Activity log</a>
+            </div>
+
+            <div class="copyright">
+                Meta © 2026
+            </div>
+
+        </div>
+    </footer>
+
+</body>
+</html>
